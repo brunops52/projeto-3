@@ -34,6 +34,12 @@ body{
     font-weight: 600;
     font-size: 32px;
 }
+.titulosec{
+    font-size: 48px;
+    font-style: italic;
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+}
 .titulo2{
     color:rgb(212, 139, 44);
     font-style: italic;
@@ -83,8 +89,14 @@ body{
     background-color:rgb(212, 139, 44);
     font-weight: bold;
 }
+#contato form button:hover{
+    background-color:rgb(146, 97, 32)
+}
 .sobrein{
     align-items: center;
+}
+#contato form label{
+    cursor: pointer;
 }
 @media (max-width: 767px) {
     .carousel-item img{
